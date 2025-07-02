@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	width: 100%;
+	height: 600vh;
+	font-family: "Londrina Outline", sans-serif;
+	color: white;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+section {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-color: black;
+}
+
+.hero {
+	background: url("./assets/junni-1.jpg") no-repeat 50% 50%;
+	background-size: cover;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer h1 {
+	font-size: 4vw;
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+}
+.sticky-header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 1;
+}
+
+.sticky-header h1 {
+	font-size: 20vw;
+	font-weight: lighter;
+	color: transparent;
+	text-align: center;
+	-webkit-text-stroke: 2px white;
+}
+
+.card {
+	position: absolute;
+	top: 150%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(0deg);
+	width: 40%;
+	height: 50%;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	will-change: transform;
+	border-radius: 1em;
+	overflow: hidden;
+}
+
+#card-1 {
+	background: url("./assets/junni-2.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	border: 2px solid rgba(236, 183, 76, 0.35);
+}
+#card-2 {
+	background: url("./assets/junni-2.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	border: 2px solid rgba(125, 216, 105, 0.35);
+}
+#card-3 {
+	background: url("./assets/junni-2.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	border: 2px solid rgba(224, 255, 87, 0.35);
+}
+#card-4 {
+	background: url("./assets/junni-2.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	border: 2px solid rgba(125, 216, 105, 0.35);
+}
+
+.card-phase {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
