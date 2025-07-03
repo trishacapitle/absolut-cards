@@ -50,6 +50,7 @@ function showProgressAndIndices() {
 		ease: "power2.Out",
 	});
 	isProgressBarVisible = true;
+	animateIndexOpacity(-1);
 }
 
 function hideProgressAndIndices() {
