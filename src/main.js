@@ -67,7 +67,7 @@ ScrollTrigger.create({
   start: "top top",
   end: `+=${pinnedHeight}`,
   pin: true,
-  pinSpacing: false,
+  pinSpacing: true,
   onLeave: () => {
     hideProgressAndIndices();
   },
